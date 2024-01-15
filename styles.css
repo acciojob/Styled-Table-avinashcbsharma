@@ -1,1 +1,16 @@
-/* your code */
+table{
+            border-collapse: collapse;
+            width: 100%;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: left;
+        }
+        
+        thead{
+            background-color:rgb(71, 143, 168);
+        }
+        td, thead,th { 
+            padding: 5px;
+            }
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }  
